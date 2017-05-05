@@ -3,8 +3,8 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: pivotaldata/plr_suse11sp4_ci
-    tag: 'latest'
+    repository: pivotaldata/sles-dev
+    tag: '11'
 
 inputs:
   - name: gpdb_src
